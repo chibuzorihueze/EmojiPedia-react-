@@ -1,8 +1,11 @@
-
+import "./index.css"
+import Emoji from "./components/emoji";
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div>
+      <Emoji/>
+    </div>
   );
 }
 
